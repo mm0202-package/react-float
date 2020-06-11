@@ -1,14 +1,6 @@
 # react-components
 npm react components package
 
-# setup
-## tune package.json
-`npm init` & merge to template
-
-## secrets for CI
-- NPM_TOKEN
-- SLACK_WEBHOOK_URL
-
 # publish
 `npm version ...` => publish by github workflow
 
