@@ -1,12 +1,20 @@
-# react-components
-npm react components package
+# react-float
 
-# publish
-`npm version ...` => publish by github workflow
+## example code
+```javascript
+<Float top={'20px'} left={'40px'}>
+  <div>sample</div>
+</Float>
 
-## `npm version` options
-check by `npm version -h`
+<Float top={'2rem'} right={'4rem'}>
+  <div>sample</div>
+</Float>
 
-# unpublish
-`npm unpublish [<@scope>/]<pkg>[@<version>]` in 72 hours
+<Float bottom={'4vw'} left={'8vw'}>
+  <div>sample</div>
+</Float>
 
+<Float bottom={'4vh'} right={'8vh'}>
+  <div>sample</div>
+</Float>
+```
