@@ -1,0 +1,7 @@
+node_modules/
+public/
+.github/
+coverage/
+cypress/integration/examples/
+storybook-static/
+dist/
