@@ -1,1 +1,3 @@
-export { default as Sample } from '~/Sample/Sample'
+import Float from './Float/Float'
+
+export { Float }
